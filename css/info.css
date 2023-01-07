@@ -1,0 +1,59 @@
+#info {
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+
+#info .contenedor{
+	display:  flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-pie{
+	margin: 5px;
+}
+
+.info-pie img{
+	width: 180px;
+	height: 180px;
+	border-radius:  50%;
+	border: 7px solid #fff;
+}
+
+.info-pie video{
+	width: 420px;
+	height: 240px;
+	border: 7px solid #fff;
+}
+
+.pie a{
+		float: right;
+	width: 100px;
+	color:  #060606 ;
+	text-decoration: none;
+	padding:  1px;
+		border:  3px solid #060606 ;
+		
+}
+
+
+
+
+@media (min-width: 480px){
+	.info-pie{
+		width:  40%;
+	}
+	.info-pie video{
+	width: 80%;
+}
+}
+
+@media (min-width: 1024){
+	.info-pie{
+		width:  auto;
+	}
+	.info-pie video{
+	width: auto;
+}
+}
